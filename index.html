@@ -1592,7 +1592,7 @@ db.ref('gifts/' + playerId).on('child_added', snap => {
       .then(buf => Array.from(new Uint8Array(buf)).map(b=>b.toString(16).padStart(2,'0')).join(''))
   then paste the result into ADMIN_PASSWORD_HASH below.
 */
-const ADMIN_ID = 'player-l4ahlept';
+const ADMIN_ID = 'player-g46oo05y';
 const ADMIN_PASSWORD_HASH = ''; // <- set this (see note above). Empty = password step skipped.
 
 async function sha256(text) {
